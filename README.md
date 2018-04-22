@@ -1,5 +1,5 @@
 <h1 align="center">
-	Ion theme for The Lounge
+	Ion Theme for The Lounge
 </h1>
 
 <h3 align="center">
@@ -7,19 +7,19 @@
 </h3>
 
 <p align="center">
-	<a href="https://yarn.pm/thelounge-theme-zenburn"><img
+	<a href="https://www.npmjs.com/package/thelounge-theme-ion"><img
 		alt="npm version"
-		src="https://img.shields.io/npm/v/thelounge-theme-zenburn.svg?style=flat-square"></a>
-	<a href="https://travis-ci.org/thelounge/thelounge-theme-zenburn"><img
+		src="https://img.shields.io/npm/v/thelounge-theme-ion.svg?style=flat-square"></a>
+	<a href="https://travis-ci.org/jake-walker/thelounge-theme-ion"><img
 		alt="Travis CI Build Status"
-		src="https://img.shields.io/travis/thelounge/thelounge-theme-zenburn/master.svg?&style=flat-square"></a>
-	<a href="https://npm-stat.com/charts.html?package=thelounge-theme-zenburn&from=2016-02-12"><img
+		src="https://img.shields.io/travis/jake-walker/thelounge-theme-ion/master.svg?&style=flat-square"></a>
+	<a href="https://npm-stat.com/charts.html?package=thelounge-theme-ion&from=2016-02-12"><img
 		alt="Total downloads on npm"
-		src="https://img.shields.io/npm/dt/thelounge-theme-zenburn.svg?colorB=007dc7&style=flat-square"></a>
+		src="https://img.shields.io/npm/dt/thelounge-theme-ion.svg?colorB=007dc7&style=flat-square"></a>
 </p>
 
 <p align="center">
-	<img src="screenshot.png" alt="Screenshot of the Zenburn theme for The Lounge" width="550">
+	<img src="screenshot.png" alt="Screenshot of the Ion theme for The Lounge" width="550">
 </p>
 
 ## Installation
