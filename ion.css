@@ -25,6 +25,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+a, a:hover, a:focus {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 #footer .icon {
   color: #c5cae9;
 }
