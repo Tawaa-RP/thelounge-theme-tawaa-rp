@@ -13,7 +13,7 @@
 	<a href="https://travis-ci.org/jake-walker/thelounge-theme-ion"><img
 		alt="Travis CI Build Status"
 		src="https://img.shields.io/travis/jake-walker/thelounge-theme-ion/master.svg?&style=flat-square"></a>
-	<a href="https://npm-stat.com/charts.html?package=thelounge-theme-ion&from=2016-02-12"><img
+	<a href="https://npm-stat.com/charts.html?package=thelounge-theme-ion&from=2018-04-22"><img
 		alt="Total downloads on npm"
 		src="https://img.shields.io/npm/dt/thelounge-theme-ion.svg?colorB=007dc7&style=flat-square"></a>
 </p>
