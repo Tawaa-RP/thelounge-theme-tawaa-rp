@@ -1,17 +1,9 @@
----
-
-<h3 align="center">
-  ⚠️ Zenburn is currently looking for maintainers. ⚠️<br>
-</h3>
-
----
-
 <h1 align="center">
-	Zenburn theme for The Lounge
+	Ion theme for The Lounge
 </h1>
 
 <h3 align="center">
-	Dark & low-contrast theme based on <a href="http://kippura.org/zenburnpage/">Vim's Zenburn color scheme</a>
+	Colourful Material Design theme for The Lounge
 </h3>
 
 <p align="center">
@@ -35,5 +27,5 @@
 Install this theme with:
 
 ```sh
-thelounge install thelounge-theme-zenburn
+thelounge install thelounge-theme-ion
 ```

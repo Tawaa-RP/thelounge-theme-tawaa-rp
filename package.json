@@ -1,28 +1,28 @@
 {
-  "name": "thelounge-theme-zenburn",
+  "name": "thelounge-theme-ion",
   "version": "1.0.0",
-  "description": "Dark & low-contrast theme for The Lounge, based on the Vim's Zenburn color scheme",
+  "description": "Colourful Material Design theme for The Lounge",
   "main": "package.json",
   "thelounge": {
-    "name": "Zenburn",
+    "name": "Ion",
     "type": "theme",
-    "css": "zenburn.css"
+    "css": "ion.css"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thelounge/thelounge-theme-zenburn#readme",
-  "repository": "https://github.com/thelounge/thelounge-theme-zenburn",
+  "homepage": "https://github.com/jake-walker/thelounge-theme-ion#readme",
+  "repository": "https://github.com/jake-walker/thelounge-theme-ion",
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/thelounge/thelounge-theme-zenburn/issues"
+    "url": "https://github.com/jake-walker/thelounge-theme-ion/issues"
   },
   "devDependencies": {
     "stylelint": "~9.2.0",
     "stylelint-config-standard": "~18.2.0"
   },
   "scripts": {
-    "test": "stylelint zenburn.css"
+    "test": "stylelint ion.css"
   }
 }
