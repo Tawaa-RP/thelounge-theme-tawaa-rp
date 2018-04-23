@@ -25,6 +25,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+#sidebar {
+  background: #3f51b5;
+}
+
 a,
 a:hover,
 a:focus {
