@@ -40,12 +40,30 @@ a:hover {
   text-decoration: none;
 }
 
-#footer .icon {
+/*#footer .icon {
   color: #c5cae9;
 }
 
 #sidebar .chan .name::after {
   background: linear-gradient(to right, rgba(63, 81, 181, 0) 0%, rgba(63, 81, 181, 1) 100%);
+}*/
+
+button.icon {
+  border: none;
+  border-radius: 0px !important;
+  
+  background: transparent;
+  color: #fff;
+}
+
+button.icon:hover {
+  border: none;
+  border-radius: 0px !important;
+}
+
+button.icon.active {
+  border: none;
+  border-radius: 0px !important;
 }
 
 #sidebar button,
