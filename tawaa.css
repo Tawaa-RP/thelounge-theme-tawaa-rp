@@ -1,0 +1,469 @@
+/*
+Tawaa theme for The Lounge.
+Based on the Ion theme, which is based on the Zenburn Theme by JP Smith
+
+Installation instructions can be found here
+https://thelounge.chat/docs/server/configuration.html#theme
+
+Author: Jake Walker
+GitHub: https://github.com/jake-walker
+*/
+
+/*
+BACKGROUND #3f3f3f
+INPUT BACKGROUND #434443
+PRIMARY #dcdccc
+SECONDARY #d2d39b
+BORDERS #333333
+QUIT #bc6c4c
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans');
+
+img.logo {
+  content: url("/packages/thelounge-theme-tawaa-rp/logo.png");
+  margin: auto;
+}
+img.logo-inverted {
+  content: url("/packages/thelounge-theme-tawaa-rp/logo.png");
+  margin: auto;
+}
+.logo-container {
+  content: url("/packages/thelounge-theme-tawaa-rp/logo.png");
+  margin: auto;
+
+}
+
+body {
+  background: #2a9e6b;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, Cantarell, Oxygen, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#sidebar {
+  background: #2a9e6b;
+  color: #aad8c4;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*#footer .icon {
+  color: #aad8c4;
+}
+
+sidebar .chan .name::after {
+  background: linear-gradient(to right, rgba(63, 81, 181, 0) 0%, rgba(63, 81, 181, 1) 100%);
+}*/
+
+button.icon {
+  border: none;
+  border-radius: 0px !important;
+  
+  background: transparent;
+  color: #668f99;
+}
+
+button.icon:hover {
+  border: none;
+  border-radius: 10px !important;
+  color: #000;
+  background: #e4f3f6;
+}
+
+button.icon.active {
+  border: none;
+  border-radius: 10px !important;
+  color: #2a9e6b;
+  background: #aad8c4;
+  text-decoration: bold;
+}
+
+#sidebar button,
+#sidebar .chan,
+#sidebar .sign-out,
+#sidebar .empty {
+  color: #aad8c4;
+}
+
+#sidebar button:hover,
+#sidebar .chan:hover
+#sidebar .active {
+  background: #1e473a;
+  color: #aad8c4;
+
+}
+
+#sidebar .chan:first-child {
+  color: #ff4081;
+}
+
+#sidebar .chan:first-child:hover,
+#sidebar .chan:first-child.active {
+  color: #ff80ab;
+}
+
+#windows #chat-container.active {
+  font-family: 'Inconsolata', monospace;
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: #3f51b5;
+  color: #fff;
+}
+
+.btn:disabled,
+.btn:hover {
+  background: #5c6bc0;
+  color: #fff;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+#viewport .lt::after {
+  background-color: #f44336;
+}
+
+#chat .unread-maker::before {
+  border-top: 1px solid rgba(244, 67, 54, 0.5);
+}
+
+#chat .unread-marker-text::before {
+  color: rgba(244, 67, 54, 0.5);
+}
+
+#chat .date-marker::before {
+  border-top: 1px solid rgba(76, 175, 80, 0.5);
+}
+
+#chat .date-marker-text::before {
+  color: rgba(76, 175, 80, 0.5);
+}
+
+#chat table.channel-list td.channel .inline-channel {
+  color: #2196f3;
+}
+
+#chat .condensed .content,
+#chat .away .content,
+#chat .back .content,
+#chat .join .content,
+#chat .kick .content,
+#chat .mode .content,
+#chat .nick .content,
+#chat .part .content,
+#chat .quit .content,
+#chat .topic .content,
+#chat .topic_set_by .content {
+  color: #9e9e9e;
+}
+
+#chat .action .from,
+#chat .action .text,
+#chat .action .user {
+  color: #ff9800;
+}
+
+#chat .notice .time,
+#chat .notice .text,
+#chat .chan .notice .user {
+  color: #2196f3 !important;
+}
+
+#chat .error,
+#chat .error .from,
+#chat .channel .highlight .from,
+#chat .channel .highlight .text,
+#chat .channel .highlight .user {
+  color: #f44336;
+}
+
+#sign-in .error {
+  color: #f44336;
+}
+
+#settings .error {
+  color: #f44336;
+}
+
+#settings #change-password .error {
+  color: #f44336;
+}
+
+#settings #change-password .success {
+  color: #4caf50;
+}
+
+#connection-error {
+  background: #f44336;
+}
+
+#chat.colored-nicks .user.color-1 {
+  color: #f44336;
+}
+
+#chat.colored-nicks .user.color-2 {
+  color: #e91e63;
+}
+
+#chat.colored-nicks .user.color-3 {
+  color: #9c27b0;
+}
+
+#chat.colored-nicks .user.color-4 {
+  color: #673ab7;
+}
+
+#chat.colored-nicks .user.color-5 {
+  color: #3f51b5;
+}
+
+#chat.colored-nicks .user.color-6 {
+  color: #2196f3;
+}
+
+#chat.colored-nicks .user.color-7 {
+  color: #03a9f4;
+}
+
+#chat.colored-nicks .user.color-8 {
+  color: #00bcd4;
+}
+
+#chat.colored-nicks .user.color-9 {
+  color: #009688;
+}
+
+#chat.colored-nicks .user.color-10 {
+  color: #4caf50;
+}
+
+#chat.colored-nicks .user.color-11 {
+  color: #8bc34a;
+}
+
+#chat.colored-nicks .user.color-12 {
+  color: #cddc39;
+}
+
+#chat.colored-nicks .user.color-13 {
+  color: #ffeb3b;
+}
+
+#chat.colored-nicks .user.color-14 {
+  color: #ffc107;
+}
+
+#chat.colored-nicks .user.color-15 {
+  color: #ff9800;
+}
+
+#chat.colored-nicks .user.color-16 {
+  color: #ff5722;
+}
+
+#chat.colored-nicks .user.color-17 {
+  color: #795548;
+}
+
+#chat.colored-nicks .user.color-18 {
+  color: #9e9e9e;
+}
+
+#chat.colored-nicks .user.color-19 {
+  color: #607d8b;
+}
+
+#chat.colored-nicks .user.color-20 {
+  color: #ff1744;
+}
+
+#chat.colored-nicks .user.color-21 {
+  color: #f50057;
+}
+
+#chat.colored-nicks .user.color-22 {
+  color: #d500f9;
+}
+
+#chat.colored-nicks .user.color-23 {
+  color: #651fff;
+}
+
+#chat.colored-nicks .user.color-24 {
+  color: #3d5afe;
+}
+
+#chat.colored-nicks .user.color-25 {
+  color: #2979ff;
+}
+
+#chat.colored-nicks .user.color-26 {
+  color: #00b0ff;
+}
+
+#chat.colored-nicks .user.color-27 {
+  color: #00e5ff;
+}
+
+#chat.colored-nicks .user.color-28 {
+  color: #1de9b6;
+}
+
+#chat.colored-nicks .user.color-29 {
+  color: #00e676;
+}
+
+#chat.colored-nicks .user.color-30 {
+  color: #76ff03;
+}
+
+#chat.colored-nicks .user.color-31 {
+  color: #c6ff00;
+}
+
+#chat.colored-nicks .user.color-32 {
+  color: #ffea00;
+}
+
+.irc-fg0 {
+  color: #fff;
+}
+
+.irc-fg1 {
+  color: #000;
+}
+
+.irc-fg2 {
+  color: #2196f3;
+}
+
+.irc-fg3 {
+  color: #4caf50;
+}
+
+.irc-fg4 {
+  color: #f44336;
+}
+
+.irc-fg5 {
+  color: #795548;
+}
+
+.irc-fg6 {
+  color: #d500f9;
+}
+
+.irc-fg7 {
+  color: #ff9800;
+}
+
+.irc-fg8 {
+  color: #ffeb3b;
+}
+
+.irc-fg9 {
+  color: #8bc34a;
+}
+
+.irc-fg10 {
+  color: #00bcd4;
+}
+
+.irc-fg11 {
+  color: #18ffff;
+}
+
+.irc-fg12 {
+  color: #03a9f4;
+}
+
+.irc-fg13 {
+  color: #e91e63;
+}
+
+.irc-fg14 {
+  color: #9e9e9e;
+}
+
+.irc-fg15 {
+  color: #e0e0e0;
+}
+
+.irc-bg0 {
+  background: #fff;
+}
+
+.irc-bg1 {
+  background: #000;
+}
+
+.irc-bg2 {
+  background: #2196f3;
+}
+
+.irc-bg3 {
+  background: #4caf50;
+}
+
+.irc-bg4 {
+  background: #f44336;
+}
+
+.irc-bg5 {
+  background: #795548;
+}
+
+.irc-bg6 {
+  background: #d500f9;
+}
+
+.irc-bg7 {
+  background: #ff9800;
+}
+
+.irc-bg8 {
+  background: #ffeb3b;
+}
+
+.irc-bg9 {
+  background: #8bc34a;
+}
+
+.irc-bg10 {
+  background: #00bcd4;
+}
+
+.irc-bg11 {
+  background: #18ffff;
+}
+
+.irc-bg12 {
+  background: #03a9f4;
+}
+
+.irc-bg13 {
+  background: #e91e63;
+}
+
+.irc-bg14 {
+  background: #9e9e9e;
+}
+
+.irc-bg15 {
+  background: #e0e0e0;
+}

@@ -1,28 +1,29 @@
 {
-  "name": "thelounge-theme-ion",
+  "name": "thelounge-theme-tawaa-rp",
   "version": "1.1.1",
-  "description": "Colourful Material Design theme for The Lounge",
+  "description": "Tawaa theme for The Lounge, inspired by Ion",
   "main": "package.json",
   "thelounge": {
-    "name": "Ion",
+    "name": "Tawaa",
     "type": "theme",
-    "css": "ion.css"
+    "css": "tawaa.css",
+    "files": ["logo.png"]
   },
   "license": "MIT",
-  "homepage": "https://github.com/jake-walker/thelounge-theme-ion#readme",
-  "repository": "https://github.com/jake-walker/thelounge-theme-ion",
+  "homepage": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp#readme",
+  "repository": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp",
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/jake-walker/thelounge-theme-ion/issues"
+    "url": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp/issues"
   },
   "devDependencies": {
     "stylelint": "~9.2.0",
     "stylelint-config-standard": "~18.2.0"
   },
   "scripts": {
-    "test": "stylelint ion.css"
+    "test": "stylelint tawaa.css"
   }
 }
