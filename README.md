@@ -6,6 +6,10 @@
 	Tawaa theme for The Lounge, inspired by Ion
 </h3>
 
+<p align="center">
+	<img src="screenshot.png" alt="Screenshot of the Tawaa theme for The Lounge" width="550">
+</p>
+
 ## Installation
 
 Install this theme with:
