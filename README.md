@@ -16,5 +16,5 @@ Install this theme with:
 
 ```sh
 git clone https://github.com/Tawaa-RP/thelounge-theme-tawaa-rp
-thelounge install file:thelounge-theme-tawaa-rp
+thelounge install file:/path/to/thelounge-theme-tawaa-rp/thelounge-theme-tawaa-rp-color
 ```
