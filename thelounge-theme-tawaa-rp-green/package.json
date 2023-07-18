@@ -1,0 +1,29 @@
+{
+  "name": "thelounge-theme-tawaa-rp-green",
+  "version": "1.1.1",
+  "description": "Green Tawaa theme for The Lounge, inspired by Ion",
+  "main": "package.json",
+  "thelounge": {
+    "name": "Tawaa Green",
+    "type": "theme",
+    "css": "tawaa.css",
+    "files": ["logo.png"]
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp#readme",
+  "repository": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp",
+  "keywords": [
+    "thelounge",
+    "thelounge-theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tawaa-RP/thelounge-theme-tawaarp/issues"
+  },
+  "devDependencies": {
+    "stylelint": "~9.2.0",
+    "stylelint-config-standard": "~18.2.0"
+  },
+  "scripts": {
+    "test": "stylelint tawaa.css"
+  }
+}
